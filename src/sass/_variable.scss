@@ -1,14 +1,14 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 //! mes variable couleur
-$red : #b27070 ;
+$red : #c42d40 ;
 $blue : #12355a ;
 $green : #0d5d3a ;
 //! custom couleur nom pour moi 
 $custom-colors : (
-    "7mer" : $red ,
-    "zre9" : $blue ,
-    "khdar" : $green ,
+    "rouge" : $red ,
+    "bleu" : $blue ,
+    "vert" : $green ,
 );
 
 //! merg
