@@ -6,8 +6,8 @@ header {
     background-image: url(../../public/img/food/banner1.jpg);
     background-blend-mode: hue;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.838);
-
+    background-color: rgba(0, 0, 0, 0.815);
+    position: relative;
 }
 
 .nav-bar {
@@ -44,9 +44,341 @@ padding: 0 38px;
                 padding: 15px 33px;
                 border-bottom: 1px solid white;
                 border-top: 1px solid white;
+                transition: 0.3s;
+                font-family: text-header;
             }a:hover{
                 background-color: $red;
             }
         }
     }
 }
+.info-2 {
+
+    ul {
+        display: flex;
+        height: 70px;
+        align-items: center;
+        padding: 0;
+        margin-top: 15px;
+        margin-bottom: 0;
+
+        li {
+            list-style: none;
+
+
+
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 15px 33px;
+                border-bottom: 1px solid white;
+                border-top: 1px solid white;
+                transition: 0.3s;
+                font-family: text-header;
+            }a:hover{
+                background-color: $red;
+            }
+        }
+    }
+}
+.texto-1{
+    position: absolute;
+    top: 36%;
+    h1{
+        font-family: amine;
+    }
+}
+.occasion{
+    font-size: 50px;
+}
+.taste{
+    font-size: 50px;
+}
+.makes{
+    font-size: 50px;
+}
+.boutton-1{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 30px;
+}
+.blanc{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    font-family: text-header;
+}
+.blanc:hover{
+    color: black;
+}
+.rouge{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: $red;
+    border-radius: 30px;
+    font-family: text-header;
+}
+.rouge:hover{
+    color: white;
+}
+// !mediaquerie for phone
+@media (min-width : 320px) and (max-width : 426px) {
+    header {
+        width: 100%;
+        height: 760px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../../public/img/food/banner1.jpg);
+        background-blend-mode: hue;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.815);
+        position: relative;
+    }
+    
+    .nav-bar {
+        display: block;
+        justify-content: center;
+    }
+    
+    .logo {
+        margin: 0 25px;
+        height: 70px;
+
+        display: flex;
+        justify-content: center;
+    padding: 0 38px;
+    }
+    
+    .info-1 {margin-bottom: 20px;
+    
+        ul {width: 100%;
+            display: flex;
+
+            height: 70px;
+            align-items: center;
+            padding: 0;
+            margin-top: 15px;
+            margin-bottom: 0;
+    
+            li {
+                list-style: none;
+    
+    
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 10px;
+                    padding: 15px 19px;
+                    border-bottom: 1px solid white;
+                    border-top: 1px solid white;
+                    transition: 0.3s;
+                }a:hover{
+                    background-color: $red;
+                }
+            }
+        }
+    }
+    .info-2 {
+    
+        ul {width: 100%;
+            display: flex;
+            height: 70px;
+            align-items: center;
+            padding: 0;
+            margin-top: 11px;
+            margin-bottom: 0;
+    
+            li {
+                list-style: none;
+    
+    
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 10px;
+                    padding: 15px 12px;
+                    border-bottom: 1px solid white;
+                    border-top: 1px solid white;
+                    transition: 0.3s;
+                }a:hover{
+                    background-color: $red;
+                }
+            }
+        }
+    }
+    .texto-1{
+        position: absolute;
+        top: 40%;
+        padding: 10px;
+    }
+    .occasion{
+        font-size: 35px;
+    }
+    .taste{
+        font-size: 35px;
+    }
+    .makes{
+        font-size: 35px;
+    }
+    .boutton-1{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .blanc{
+        padding: 15px;
+        
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .blanc:hover{
+        color: black;
+    }
+    .rouge{
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        background-color: $red;
+        border-radius: 30px;
+    }
+    .rouge:hover{
+        color: white;
+    }
+}
+// !end mediaquerie for phone
+// !mediaquerie for tablet
+@media (min-width : 767px) and (max-width : 1025px) {
+    header {
+        width: 100%;
+        height: 760px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../../public/img/food/banner1.jpg);
+        background-blend-mode: hue;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.815);
+        position: relative;
+    }
+    
+    .nav-bar {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo {
+        margin: 0 25px;
+        height: 70px;
+        align-items: end;
+    padding: 0 20px;
+    }
+    
+    .info-1 {
+    
+        ul {
+            display: flex;
+            height: 70px;
+            align-items: center;
+            padding: 0;
+            margin-top: 15px;
+            margin-bottom: 0;
+    
+            li {
+                list-style: none;
+    
+    
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 10px;
+                    padding: 15px 10px;
+                    border-bottom: 1px solid white;
+                    border-top: 1px solid white;
+                    transition: 0.3s;
+                }a:hover{
+                    background-color: $red;
+                }
+            }
+        }
+    }
+    .info-2 {
+    
+        ul {
+            display: flex;
+            height: 70px;
+            align-items: center;
+            padding: 0;
+            margin-top: 15px;
+            margin-bottom: 0;
+    
+            li {
+                list-style: none;
+    
+    
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 15px 10px;
+                    font-size: 10px;
+                    border-bottom: 1px solid white;
+                    border-top: 1px solid white;
+                    transition: 0.3s;
+                }a:hover{
+                    background-color: $red;
+                }
+            }
+        }
+    }
+    .texto-1{
+        position: absolute;
+        top: 25%;
+    }
+    .occasion{
+        font-size: 50px;
+    }
+    .taste{
+        font-size: 50px;
+    }
+    .makes{
+        font-size: 50px;
+    }
+    .boutton-1{
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        margin-top: 25px;
+    }
+    .blanc{
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .blanc:hover{
+        color: black;
+    }
+    .rouge{
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        background-color: $red;
+        border-radius: 30px;
+    }
+    .rouge:hover{
+        color: white;
+    }
+}
+// !end mediaquerie for tablet
