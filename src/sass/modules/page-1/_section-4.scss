@@ -1,0 +1,155 @@
+.blog{
+    font-family: amine;
+    margin-top: 70px;
+    .our-blog{
+        font-size: 45px;
+    }
+    
+}
+.all-product{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+.salade{
+    position: relative;
+    
+    img{
+        border: 5px solid rgba(128, 128, 128, 0.648);
+        border-radius: 20px;
+        
+    }
+    a{position: absolute;
+        top: 100%;
+        left: 16%;
+        transform: translateY(-50%);
+        z-index: 5;
+        text-decoration: none;
+        padding: 15px;
+        background-color: $red;
+        color: white;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    h4{
+        margin-top: 30px;
+    }
+}
+.info-salade{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 40px;
+}
+// !start mediaQ for phone----------------------------------------------------------------------------->
+@media (min-width : 320px) and (max-width : 426px) {
+    .blog{
+        font-family: amine;
+        margin-top: 70px;
+        .our-blog{
+            font-size: 45px;
+        }
+        img{
+            width: 180px;
+        }
+    }
+    .all-product{
+        margin-top: 30px;
+        display: block;
+        justify-content: center;
+        gap: 42px;
+    }
+    .salade{
+        position: relative;
+        
+        img{
+            border: 5px solid rgba(128, 128, 128, 0.648);
+            border-radius: 20px;
+            width: 300px;
+            margin: 16px 0;
+            
+        }
+        a{position: absolute;
+            top: 100%;
+            left: 7%;
+            transform: translateY(-100%);
+            z-index: 5;
+            text-decoration: none;
+            padding: 10px;
+            background-color: $red;
+            color: white;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        h4{
+            margin-top: 30px;
+        }
+    }
+    .product-phone{
+        display: flex;
+        justify-content: center;
+    }
+    .info-salade{
+        display: none;
+        justify-content: center;
+        gap: 250px;
+        margin-top: 40px;
+    }
+}
+// !end mediaQ for phone----------------------------------------------------------------------------->
+// !start mediaQ for tablete----------------------------------------------------------------------------->
+@media (min-width : 767px) and (max-width : 1025px) {
+    .blog{
+        font-family: amine;
+        margin-top: 70px;
+        .our-blog{
+            font-size: 45px;
+        }
+    }
+    .all-product{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .salade{
+        position: relative;
+        
+        img{
+            border: 5px solid rgba(128, 128, 128, 0.648);
+            border-radius: 20px;
+            width: 320px;
+            
+        }
+        a{position: absolute;
+            top: 100%;
+            left: 16%;
+            transform: translateY(-50%);
+            z-index: 5;
+            text-decoration: none;
+            padding: 15px;
+            background-color: $red;
+            color: white;
+            border-radius: 10px;
+            font-size: 13px;
+        }
+        h4{
+            margin-top: 30px;
+        }
+    }
+    .info-salade{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 40px;
+    }
+    .push-info{
+        h4{
+            margin-left: 30px;
+        }
+        p{
+            margin-left: 30px;
+        }
+    }
+}
