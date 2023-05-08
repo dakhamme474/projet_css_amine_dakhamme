@@ -1,0 +1,92 @@
+.section-2{
+    background-image: url(../img/team_background.jpg);
+    background-size: cover;
+    background-blend-mode: hue;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.meet{
+    font-size: 45px;
+    
+}
+.chef{
+   
+    h1{
+        font-family: amine;
+        text-align: center ;
+padding-top: 60px;
+    }
+}
+.quatre-chef{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    img{
+        border-bottom: 1px solid white;
+    }
+}
+// !start mediaQ for phone-----------------------------------------------------------------------------
+@media (min-width : 320px) and (max-width : 426px) {
+    .section-2{
+        background-image: url(../img/team_background.jpg);
+        background-size: cover;
+        background-blend-mode: hue;
+        background-color: rgba(0, 0, 0, 0.678);
+    }
+    .meet{
+        font-size: 40px;
+        
+    }
+    .chef{
+        img{
+            width: 190px;
+        }
+        h1{
+            font-family: amine;
+            text-align: center ;
+            padding-top: 60px;
+        }
+    }
+    .quatre-chef{
+        margin-top: 30px;
+        display: block;
+        
+        img{
+            border-bottom: 1px solid white;
+            width: 165px;
+        }
+    }
+.centrer-chef{
+    display: flex;
+    justify-content: center;
+}}
+// !end mediaQ for phone----------------------------------------------------------------------------->
+// !start mediaQ for tablet----------------------------------------------------------------------------->
+@media (min-width : 767px) and (max-width : 1025px) {
+    .section-2{
+        background-image: url(../img/team_background.jpg);
+        background-size: cover;
+        background-blend-mode: hue;
+        background-color: rgba(0, 0, 0, 0.678);
+    }
+    .meet{
+        font-size: 38px;
+        
+    }
+    .chef{
+       
+        h1{
+            font-family: amine;
+            text-align: center ;
+            padding-top: 60px;
+        }
+    }
+    .quatre-chef{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        img{
+            border-bottom: 1px solid white;
+            width: 115px;
+        }
+    }
+}
