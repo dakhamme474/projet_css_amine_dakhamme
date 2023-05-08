@@ -10986,6 +10986,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/main_bg.jpg);
+}
+
 header {
   width: 100%;
   height: 760px;
@@ -11213,6 +11222,7 @@ header {
     color: black;
     background-color: white;
     border-radius: 30px;
+    font-size: 15px;
   }
   .blanc:hover {
     color: black;
@@ -11223,6 +11233,7 @@ header {
     color: white;
     background-color: #c42d40;
     border-radius: 30px;
+    font-size: 15px;
   }
   .rouge:hover {
     color: white;
@@ -11335,6 +11346,90 @@ header {
   }
   .rouge:hover {
     color: white;
+  }
+}
+.section-1 {
+  background-color: white;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.story {
+  display: flex;
+  justify-content: space-between;
+}
+.story h1, .story .h1 {
+  font-size: 40px;
+  font-family: amine;
+  margin: 35px 0 0 0;
+}
+
+.para {
+  display: flex;
+  justify-content: center;
+}
+.para p {
+  padding-top: 50px;
+  text-align: center;
+  width: 600px;
+}
+
+.menu-list h1, .menu-list .h1 {
+  font-size: 40px;
+  font-family: amine;
+  margin: 35px 0 0 0;
+}
+
+.box-bottum {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  .section-1 {
+    background-color: white;
+    margin-top: 30px;
+  }
+  .story {
+    display: flex;
+    justify-content: space-between;
+  }
+  .story h1, .story .h1 {
+    font-size: 25px;
+    font-family: amine;
+    margin: 35px 0 0 0;
+  }
+  .story .boxes {
+    width: 50px;
+    height: 50px;
+  }
+  .story img {
+    width: 180px;
+  }
+  .para {
+    display: flex;
+    justify-content: center;
+  }
+  .para p {
+    padding-top: 50px;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .menu-list h1, .menu-list .h1 {
+    font-size: 25px;
+    font-family: amine;
+    margin: 35px 0 0 0;
+  }
+  .menu-list img {
+    width: 180px;
+  }
+  .box-bottum {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box-bottum .boxes {
+    width: 50px;
+    height: 50px;
   }
 }
 
