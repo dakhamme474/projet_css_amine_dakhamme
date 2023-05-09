@@ -11503,6 +11503,7 @@ header {
   .quatre-chef img {
     border-bottom: 1px solid white;
     width: 165px;
+    opacity: 1;
   }
   .centrer-chef {
     display: flex;
@@ -11533,6 +11534,7 @@ header {
   .quatre-chef img {
     border-bottom: 1px solid white;
     width: 115px;
+    opacity: 1;
   }
 }
 .section-3 {
