@@ -1,89 +1,246 @@
-.section-1{
+.section-1 {
     background-color: white;
     margin-top: 30px;
     padding: 0;
 
 }
-.story{
+
+.story {
     display: flex;
     justify-content: space-between;
-    h1{
-         font-size: 40px;
-    font-family: amine;
-    margin: 35px 0 0 0;
+
+    h1 {
+        font-size: 40px;
+        font-family: amine;
+        margin: 35px 0 0 0;
     }
 }
-.para{
+
+.para {
     display: flex;
     justify-content: center;
-    p{
+
+    p {
         padding-top: 50px;
         text-align: center;
         width: 600px;
     }
 }
-.menu-list{
-    h1{
+
+.menu-list {
+    h1 {
         font-size: 40px;
-   font-family: amine;
-   margin: 35px 0 0 0;
-   }
+        font-family: amine;
+        margin: 35px 0 0 0;
+    }
 }
-.box-bottum{
+
+.box-bottum {
     display: flex;
     justify-content: space-between;
 }
+
+// !-------------------------------nvgbc----------------------------------------------------------
+.all-menu {
+    padding-left: 70px;
+}
+
+.icone-tabs {
+    font-size: 50px;
+    padding: 50px;
+    border-bottom: 2px solid gray;
+}
+
+.right-border {
+    border-right: 2px solid gray;
+    margin-top: 60px;
+}
+
+.first-coffe {
+    display: flex;
+    gap: 20px;
+
+    .menu-2 {
+        padding: 15px;
+        display: flex;
+        border-bottom: 1px dashed gray;
+
+        img {
+            width: 100px;
+            border: 5px solid rgba(128, 128, 128, 0.589);
+            border-radius: 50%;
+        }
+    }
+}
+
+.texto-menu {
+    padding: 20px;
+}
+
+
 // !start mediaQ for phone-----------------------------------------------------------------------------
 @media (min-width : 320px) and (max-width : 426px) {
-    .section-1{
+    .section-1 {
         background-color: white;
         margin-top: 30px;
-        
-    
+
+
     }
-    .story{
+
+    .story {
         display: flex;
         justify-content: space-between;
-        h1{
-             font-size: 25px;
-        font-family: amine;
-        margin: 35px 0 0 0;
+
+        h1 {
+            font-size: 25px;
+            font-family: amine;
+            margin: 35px 0 0 0;
         }
-        .boxes{
+
+        .boxes {
             width: 50px;
             height: 50px;
         }
-        img{
+
+        img {
             width: 180px;
         }
     }
-    .para{
+
+    .para {
         display: flex;
         justify-content: center;
-        p{
+
+        p {
             padding-top: 50px;
             text-align: center;
             padding: 0 15px;
         }
     }
-    .menu-list{
-        h1{
+
+    .menu-list {
+        h1 {
             font-size: 25px;
-       font-family: amine;
-       margin: 35px 0 0 0;
-       }
-       img{
-        width: 180px;
-       }
+            font-family: amine;
+            margin: 35px 0 0 0;
+        }
+
+        img {
+            width: 180px;
+        }
 
     }
-    .box-bottum{
+
+    .box-bottum {
         display: flex;
         justify-content: space-between;
-        .boxes{
+
+        .boxes {
             width: 50px;
             height: 50px;
         }
     }
+
+    // *----------------------------------------------------------------------------------------------------
+    .boss{
+        flex-direction: column;
+    }
+    .all-menu {
+        padding-left: 0;
+    }
+
+    .icone-tabs {
+        font-size: 35px;
+        padding: 20px;
+        border-bottom: 2px solid gray;
+        margin: 15px 0;
+        
+    }
+
+    .right-border {
+        border-right: 0;
+        margin-top: 60px;
+        justify-content: center;
+        
+
+    }
+
+    .first-coffe {
+        flex-direction: column;
+        padding-left: 20px;
+        .menu-2 {
+            padding: 15px;
+            display: flex;
+            
+            align-items: center;
+            border-bottom: 1px dashed gray;
+            p{
+                font-size: 13px;
+            }
+            .menu-center{
+                display: flex;
+                justify-content: center;
+            }
+
+            img {
+                width: 55px;
+                height: 55px;
+                border: 3px solid rgba(128, 128, 128, 0.589);
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .texto-menu {
+        padding: 7px;
+    }
 }
+
 // !end mediaQ for phone-----------------------------------------------------------------------------
+// !start mediaQ for tablete-----------------------------------------------------------------------------
+@media (min-width : 767px) and (max-width : 1025px) {
+    .all-menu {
+        padding-left: 0;
+    }
+
+    .icone-tabs {
+        font-size: 30px;
+        padding: 30px;
+        border-bottom: 2px solid gray;
+    }
+
+    .right-border {
+        
+        border-right: 2px solid gray;
+        margin-top: 120px;
+        display: flex;
+
+    }
+
+    .first-coffe {
+        display: flex;
+        gap: 20px;
+
+        .menu-2 {
+            padding: 15px;
+            display: flex;
+            border-bottom: 1px dashed gray;
+            align-items: center;
+
+            img {
+                
+                width: 50px;
+                height: 50px;
+                border: 3px solid rgba(128, 128, 128, 0.589);
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .texto-menu {
+        padding: 20px;
+        p{
+            font-size: 10px;
+        }
+    }
+}

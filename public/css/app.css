@@ -11150,6 +11150,7 @@ header {
   .nav-bar {
     display: block;
     justify-content: center;
+    margin: 0;
   }
   .logo {
     margin: 0 25px;
@@ -11398,6 +11399,40 @@ header {
   justify-content: space-between;
 }
 
+.all-menu {
+  padding-left: 70px;
+}
+
+.icone-tabs {
+  font-size: 50px;
+  padding: 50px;
+  border-bottom: 2px solid gray;
+}
+
+.right-border {
+  border-right: 2px solid gray;
+  margin-top: 60px;
+}
+
+.first-coffe {
+  display: flex;
+  gap: 20px;
+}
+.first-coffe .menu-2 {
+  padding: 15px;
+  display: flex;
+  border-bottom: 1px dashed gray;
+}
+.first-coffe .menu-2 img {
+  width: 100px;
+  border: 5px solid rgba(128, 128, 128, 0.589);
+  border-radius: 50%;
+}
+
+.texto-menu {
+  padding: 20px;
+}
+
 @media (min-width: 320px) and (max-width: 426px) {
   .section-1 {
     background-color: white;
@@ -11444,6 +11479,86 @@ header {
     width: 50px;
     height: 50px;
   }
+  .boss {
+    flex-direction: column;
+  }
+  .all-menu {
+    padding-left: 0;
+  }
+  .icone-tabs {
+    font-size: 35px;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+    margin: 15px 0;
+  }
+  .right-border {
+    border-right: 0;
+    margin-top: 60px;
+    justify-content: center;
+  }
+  .first-coffe {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .first-coffe .menu-2 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dashed gray;
+  }
+  .first-coffe .menu-2 p {
+    font-size: 13px;
+  }
+  .first-coffe .menu-2 .menu-center {
+    display: flex;
+    justify-content: center;
+  }
+  .first-coffe .menu-2 img {
+    width: 55px;
+    height: 55px;
+    border: 3px solid rgba(128, 128, 128, 0.589);
+    border-radius: 50%;
+  }
+  .texto-menu {
+    padding: 7px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1025px) {
+  .all-menu {
+    padding-left: 0;
+  }
+  .icone-tabs {
+    font-size: 30px;
+    padding: 30px;
+    border-bottom: 2px solid gray;
+  }
+  .right-border {
+    border-right: 2px solid gray;
+    margin-top: 120px;
+    display: flex;
+  }
+  .first-coffe {
+    display: flex;
+    gap: 20px;
+  }
+  .first-coffe .menu-2 {
+    padding: 15px;
+    display: flex;
+    border-bottom: 1px dashed gray;
+    align-items: center;
+  }
+  .first-coffe .menu-2 img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(128, 128, 128, 0.589);
+    border-radius: 50%;
+  }
+  .texto-menu {
+    padding: 20px;
+  }
+  .texto-menu p {
+    font-size: 10px;
+  }
 }
 .section-2 {
   background-image: url(../img/team_background.jpg);
@@ -11453,11 +11568,8 @@ header {
   margin-top: 50px;
 }
 
-.meet {
-  font-size: 45px;
-}
-
 .chef h1, .chef .h1 {
+  font-size: 40px;
   font-family: amine;
   text-align: center;
   padding-top: 60px;
@@ -11495,6 +11607,7 @@ header {
     font-family: amine;
     text-align: center;
     padding-top: 60px;
+    font-size: 25px;
   }
   .quatre-chef {
     margin-top: 30px;
@@ -11634,21 +11747,14 @@ header {
     display: flex;
     justify-content: space-between;
   }
-  .book-table h1, .book-table .h1 {
-    margin: 30px 0 0 0;
-  }
   .book-table .boxes-2 {
     width: 50px;
     height: 50px;
   }
-  .meet {
-    font-size: 22px;
-  }
-  .book {
-    font-family: amine;
-  }
   .book h1, .book .h1 {
-    font-size: 15px;
+    font-size: 25px;
+    margin: 30px 0 0 0;
+    font-family: amine;
   }
   .book img {
     width: 180px;
@@ -11660,7 +11766,7 @@ header {
   .les-input {
     margin-top: 20px;
     background-image: url(../img/book_table_bg.jpg);
-    width: 65%;
+    width: 77%;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -11676,7 +11782,7 @@ header {
     display: block;
   }
   .information input {
-    width: 155px;
+    width: 200px;
     height: 40px;
     border-radius: 12px;
     border: 0;
@@ -11688,7 +11794,7 @@ header {
     justify-content: center;
   }
   .select-1 {
-    width: 155px;
+    width: 200px;
     height: 40px;
     border-radius: 12px;
     border: 0;
@@ -11834,12 +11940,10 @@ header {
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
-  .blog {
+  .blog h1, .blog .h1 {
+    font-size: 25px;
     font-family: amine;
-    margin-top: 70px;
-  }
-  .blog .our-blog {
-    font-size: 45px;
+    margin-top: 85px;
   }
   .blog img {
     width: 180px;
@@ -12009,9 +12113,10 @@ header {
     display: block;
     justify-content: space-around;
   }
-  .testimonials {
+  .testimonials h1, .testimonials .h1 {
     font-family: amine;
     text-align: center;
+    font-size: 25px;
   }
   .testimonials img {
     width: 180px;
@@ -12071,7 +12176,7 @@ header {
     border-radius: 50%;
   }
   .client-info {
-    width: 190px;
+    width: 335px;
     border: 1px solid white;
     border-radius: 10px;
   }
@@ -12143,12 +12248,11 @@ header {
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
-  .our-contact {
-    font-family: amine;
-    margin-top: 65px;
-  }
   .our-contact h1, .our-contact .h1 {
     margin: 0;
+    font-family: amine;
+    margin-top: 65px;
+    font-size: 25px;
   }
   .our-contact img {
     width: 100%;
@@ -12205,7 +12309,7 @@ header {
 footer {
   background-image: url(../../../../public/img/footer_background.jpg);
   width: 100%;
-  height: 300px;
+  height: 320px;
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
@@ -12259,7 +12363,7 @@ footer {
 }
 
 .info-footer h2, .info-footer .h2 {
-  padding: 11px;
+  padding: 40px 11px 11px 11px;
   font-weight: 450;
   margin: 0;
 }
@@ -12283,7 +12387,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .all-images {
     margin-top: 15px;
@@ -12325,7 +12429,7 @@ footer {
     font-size: 12px;
   }
   .info-footer h2, .info-footer .h2 {
-    padding: 11px;
+    padding: 30px 11px 11px 11px;
     font-weight: 450;
     margin: 0;
     text-align: center;
@@ -12394,7 +12498,7 @@ footer {
     font-size: 16px;
   }
   .info-footer h2, .info-footer .h2 {
-    padding: 11px;
+    padding: 30px;
     margin: 0;
     text-align: center;
     font-size: 35px;

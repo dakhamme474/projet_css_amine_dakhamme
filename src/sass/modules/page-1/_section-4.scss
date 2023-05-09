@@ -45,10 +45,11 @@
 // !start mediaQ for phone----------------------------------------------------------------------------->
 @media (min-width : 320px) and (max-width : 426px) {
     .blog{
-        font-family: amine;
-        margin-top: 70px;
-        .our-blog{
-            font-size: 45px;
+       
+        h1{
+            font-size: 25px;
+            font-family: amine;
+            margin-top: 85px;
         }
         img{
             width: 180px;

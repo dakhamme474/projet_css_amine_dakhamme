@@ -88,21 +88,19 @@
     .book-table{
         display: flex;
         justify-content: space-between;
-        h1{
-            margin: 30px 0 0 0;
-        }
+        
         .boxes-2{
             width: 50px;
             height: 50px;
         }
     }
-    .meet{
-        font-size: 22px;
-    }
+    
     .book{
-        font-family: amine;
+        
         h1{
-            font-size: 15px;
+            font-size: 25px;
+            margin: 30px 0 0 0;
+            font-family: amine;
         }
         img{
             width: 180px;
@@ -115,7 +113,7 @@
     .les-input{
         margin-top: 20px;
         background-image: url(../img/book_table_bg.jpg);
-        width: 65%;
+        width: 77%;
         
         background-size: cover;
         background-position: center;
@@ -135,7 +133,7 @@
     }
     .information{
         input{
-            width: 155px;
+            width: 200px;
             height: 40px;
             border-radius: 12px;
             border: 0;
@@ -149,7 +147,7 @@
     }
 
     .select-1{
-        width: 155px;
+        width: 200px;
         height: 40px;
         border-radius: 12px;
         border: 0;
