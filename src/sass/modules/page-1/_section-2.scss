@@ -23,6 +23,12 @@ padding-top: 60px;
     justify-content: space-around;
     img{
         border-bottom: 1px solid white;
+        opacity: calc(0.5);
+        transition: 0.8s;
+    }
+    img:hover{
+        opacity: calc(1);
+        
     }
 }
 // !start mediaQ for phone-----------------------------------------------------------------------------

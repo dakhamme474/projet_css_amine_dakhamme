@@ -118,6 +118,7 @@ padding: 0 38px;
     justify-content: center;
     gap: 18px;
     margin-top: 30px;
+   
 }
 .blanc{
     padding: 15px;
@@ -126,9 +127,11 @@ padding: 0 38px;
     background-color: white;
     border-radius: 30px;
     font-family: text-header;
+    transition: 0.4s;
 }
 .blanc:hover{
     color: black;
+    background-color: rgba(255, 255, 255, 0.427);
 }
 .rouge{
     padding: 15px;
@@ -137,9 +140,11 @@ padding: 0 38px;
     background-color: $red;
     border-radius: 30px;
     font-family: text-header;
+    transition: 0.4s;
 }
 .rouge:hover{
     color: white;
+    background-color: #c42d4173;
 }
 // !start  mediaquerie for phone --------------------------------------------------------------------------
 @media (min-width : 320px) and (max-width : 426px) {

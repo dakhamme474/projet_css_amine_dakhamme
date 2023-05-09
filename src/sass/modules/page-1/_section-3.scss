@@ -67,6 +67,10 @@
         background-color: $red;
         border-radius: 25px;
         margin-top: 40px;
+        transition: 0.4s;
+    }
+    a:hover{
+        background-color: #c42d417c;
     }
 }
 .box-grey{
