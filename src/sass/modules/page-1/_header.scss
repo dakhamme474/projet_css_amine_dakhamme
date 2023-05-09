@@ -17,6 +17,14 @@ header {
     background-color: rgba(0, 0, 0, 0.815);
     position: relative;
 }
+.baner{
+    position: absolute;
+    background-image: url(../../../../public/img/bottom_decoration_img.png);
+background-repeat: repeat-x;
+height: 20px;
+width: 100%;
+bottom: -5px;
+}
 
 .nav-bar {
     margin-top: 30px;
@@ -133,7 +141,7 @@ padding: 0 38px;
 .rouge:hover{
     color: white;
 }
-// !mediaquerie for phone
+// !start  mediaquerie for phone --------------------------------------------------------------------------
 @media (min-width : 320px) and (max-width : 426px) {
     header {
         width: 100%;
@@ -223,8 +231,9 @@ padding: 0 38px;
     }
     .texto-1{
         position: absolute;
-        top: 40%;
+        top: 48%;
         padding: 10px;
+
     }
     .occasion{
         font-size: 35px;
@@ -267,8 +276,8 @@ padding: 0 38px;
         
     }
 }
-// !end mediaquerie for phone
-// !mediaquerie for tablet
+// !end mediaquerie for phone -------------------------------------------------------------------------
+// !start mediaquerie for tablet-----------------------------------------------------------------------
 @media (min-width : 767px) and (max-width : 1025px) {
     header {
         width: 100%;
@@ -393,4 +402,4 @@ padding: 0 38px;
         color: white;
     }
 }
-// !end mediaquerie for tablet
+// !end mediaquerie for tablet --------------------------------------------------------------------------

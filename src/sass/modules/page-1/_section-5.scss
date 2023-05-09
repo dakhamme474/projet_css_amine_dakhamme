@@ -12,6 +12,13 @@
     justify-content: space-around;
     
 }
+.box-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
 .testimonials{
     font-family: amine;
     text-align: center;
@@ -40,6 +47,18 @@
         margin-top: 50px;
         background-blend-mode: hue;
         background-color: rgba(0, 0, 0, 0.582);
+    }
+    .box-client{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rever{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
     .intro-mobile{
         display: flex;
@@ -70,7 +89,7 @@
         }
     }
     .client-info{
-        width: 250px;
+        width: 200px;
         border: 1px solid white;
         border-radius: 10px;
         margin: 20px 0;
@@ -82,10 +101,11 @@
     .section-5{
         background-image: url(../img/testimonials_background.jpg);
         width: 100%;
-        height: 500px;
+        height: auto;
         margin-top: 50px;
         background-blend-mode: hue;
         background-color: rgba(0, 0, 0, 0.582);
+        padding-bottom: 8%;
     }
     .client-class{
         margin-top: 50px;
@@ -93,6 +113,18 @@
         justify-content: space-around;
        
         
+    }
+    .box-client{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rever{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
     .testimonials{
         font-family: amine;
